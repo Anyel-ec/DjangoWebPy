@@ -2,4 +2,7 @@
 from django.http import HttpResponse
 # Create your views here.
 def hello(request):
-    return HttpResponse("Hello Word..!! from Anyel EC")
+    return HttpResponse("<h1> Hello Word..!! from Anyel EC </h1>")
+
+def about (request):
+    return HttpResponse('About')
